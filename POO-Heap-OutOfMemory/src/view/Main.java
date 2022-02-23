@@ -1,34 +1,20 @@
 package view;
 
+import java.util.ArrayList;
+
 public class Main {
 
 	public static void main(String[] args) {
-
-		while (true) {
-							
-			vetorVetor vetor[] = new vetorVetor[500];
-			
-			
-			
-		}
-
-	}
-	
-	
-	public static void criaVetor(vetorVetor vetor[]) {
 		
 		
+		ArrayList<String[]> x = new ArrayList<String[]>();
 		
-	}
-	
-	
-	public class vetorVetor {
-		
-		private double vetor[];
-		
-		public vetorVetor(double vetor[]) {
-			this.vetor = vetor;
-			
-		}
+	    int n = 100000000;
+	    
+	    for(int i=0;i<n;i++){
+	    	
+	        x.add(new String[1000000000]);
+	        
+	    }
 	}
 }
